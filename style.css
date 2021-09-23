@@ -56,10 +56,10 @@
     width: 25vw;
   } */
   a:link {
-    color: #FFB84D;
+    color: #00B4BF;
   }
   a:visited {
-    color: #00B4BF;
+    color: #FFB84D;
   }
   a:hover {
     color: #00838B;
