@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Hello Me!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kirang+Haerang">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Happy+Monkey">
+  </head>
+<body>
+  <h1 id="pagetop">Hello Me!</h1>
+
+  <section id="first">
+    <h2>About Myself</h2>
+    <p>My name is Caroline Hoffman. I use she, her, and hers pronouns. I'm</p>
+    <p>a Senior majoring in Strategic Communication with a focus in Media</p>
+    <p>Design and minoring in CTD. I'm also a <!--<a href="WEB-Files/Encyclopedia/index.html">-->CU Hiking Club<!--</a>--> Officer, as</p>
+    <p>well as a member of Bee Club.</p>
+    <img src="week-6-assets/mehiking.jpg" style="width:20vw" alt="a picture of a a girl hiking"/>
+  </section>
+
+  <section id="second">
+    <h2>Goals for the Course</h2>
+    <p>I look forward to better learning some different web languages, as</p>
+    <p>well as expanding my knowledge of some coding languages I'm already</p>
+    <p>kind of familiar with. I love being creative and I'm excited to be</p>
+    <p>able to use my creativity within the class.</p>
+  </section>
+
+  <section id="third">
+    <button id="mybutton">Instagram</button>
+    <button id="mybutton2">Portfolio</button>
+    <p id="bottom"><a href="#pagetop">Back to top</a><p>
+  </section>
+
+<script>
+  console.log("javascript working");
+  document.getElementById("mybutton").addEventListener("click", buttonOne);
+  document.getElementById("mybutton2").addEventListener("click", buttonTwo);
+
+  function buttonOne(){
+    alert("@carolineghoffman");
+    /*a href=https://www.instagram.com/carolineghoffman/;*/
+  }
+  function buttonTwo(){
+    alert("https://carolinehoffman412.wixsite.com/portfolio");
+  }
+</script>
+</body>
+
+</html>
