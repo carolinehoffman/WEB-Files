@@ -10,7 +10,7 @@
   <body>
     <h1 id="pagetop">My Weekly Menu</h1>
 
-    <section id="sunday">
+    <section id="sunday" class="defaultDay">
       <h2>Sunday</h2>
       <section id="sundaydivs">
       <div class="todos">
@@ -21,6 +21,8 @@
       </div>
       <div class="weather">
         <h3>Today's Weather</h3>
+        <p>High of 47 degrees, low of 30</p>
+        <p>Rain and snow</p>
       </div>
       <div class="quotes">
         <h3>Quote of the Day</h3>
@@ -29,7 +31,7 @@
       </section>
     </section>
 
-    <section id="monday">
+    <section id="monday" class="notDefault">
       <h2>Monday</h2>
       <section id="mondaydivs">
       <div class="todos">
@@ -40,6 +42,8 @@
       </div>
       <div class="weather">
         <h3>Today's Weather</h3>
+        <p>High of 47 degrees, low of 28</p>
+        <p>Mostly cloudy</p>
       </div>
       <div class="quotes">
         <h3>Quote of the Day</h3>
@@ -48,7 +52,7 @@
       </section>
     </section>
 
-    <section id="tuesday">
+    <section id="tuesday" class="notDefault">
       <h2>Tuesday</h2>
       <section id="tuesdaydivs">
       <div class="todos">
@@ -59,6 +63,8 @@
       </div>
       <div class="weather">
         <h3>Today's Weather</h3>
+        <p>High of 48 degrees, low of 30</p>
+        <p>Snow showers</p>
       </div>
       <div class="quotes">
         <h3>Quote of the Day</h3>
@@ -67,7 +73,7 @@
       </section>
     </section>
 
-    <section id="wednesday">
+    <section id="wednesday" class="notDefault">
       <h2>Wednesday</h2>
       <section id="wednesdaydivs">
       <div class="todos">
@@ -78,6 +84,8 @@
       </div>
       <div class="weather">
         <h3>Today's Weather</h3>
+        <p>High of 58 degrees, low of 34</p>
+        <p>Mostly sunny</p>
       </div>
       <div class="quotes">
         <h3>Quote of the Day</h3>
@@ -86,7 +94,7 @@
       </section>
     </section>
 
-    <section id="thursday">
+    <section id="thursday" class="notDefault">
       <h2>Thursday</h2>
       <section id="thursdaydivs">
       <div class="todos">
@@ -97,6 +105,8 @@
       </div>
       <div class="weather">
         <h3>Today's Weather</h3>
+        <p>High of 61 degrees, low of 39</p>
+        <p>Sunny</p>
       </div>
       <div class="quotes">
         <h3>Quote of the Day</h3>
@@ -105,7 +115,7 @@
       </section>
     </section>
 
-    <section id="friday">
+    <section id="friday" class="notDefault">
       <h2>Friday</h2>
       <section id="fridaydivs">
       <div class="todos">
@@ -116,6 +126,8 @@
       </div>
       <div class="weather">
         <h3>Today's Weather</h3>
+        <p>High of 70 degrees, low of 42</p>
+        <p>Sunny</p>
       </div>
       <div class="quotes">
         <h3>Quote of the Day</h3>
@@ -124,7 +136,7 @@
       </section>
     </section>
 
-    <section id="saturday">
+    <section id="saturday" class="notDefault">
       <h2>Saturday</h2>
       <section id="saturdaydivs">
       <div class="todos">
@@ -135,6 +147,8 @@
       </div>
       <div class="weather">
         <h3>Today's Weather</h3>
+        <p>High of 64 degrees, low of 34</p>
+        <p>Mostly sunny</p>
       </div>
       <div class="quotes">
         <h3>Quote of the Day</h3>
@@ -145,33 +159,16 @@
 
     <section id="dayssection">
       <!--make these all into buttons that trigger date, menu, and quote-->
-        <button id="sundayb">Sunday</button>
-        <button id="mondayb">Monday</button>
-        <button id="tuesdayb">Tuesday</button>
-        <button id="wednesdayb">Wednesday</button>
-        <button id="thursdayb">Thursday</button>
-        <button id="fridayb">Friday</button>
-        <button id="saturdayb">Saturday</button>
+        <button id="sundaybutton">Sunday</button>
+        <button id="mondaybutton">Monday</button>
+        <button id="tuesdaybutton">Tuesday</button>
+        <button id="wednesdaybutton">Wednesday</button>
+        <button id="thursdaybutton">Thursday</button>
+        <button id="fridaybutton">Friday</button>
+        <button id="saturdaybutton">Saturday</button>
     </section>
 
     <script type="text/javascript" src="index.js"></script>
-
-    <!--<script>
-      document.getElementById("sundayb").addEventListener("click", sunday);
-      document.getElementById("mondayb").addEventListener("click", monday);
-      document.getElementById("tuesdayb").addEventListener("click", tuesday);
-      document.getElementById("wednesdayb").addEventListener("click", wednesday);
-      document.getElementById("thursdayb").addEventListener("click", thursday);
-      document.getElementById("fridayb").addEventListener("click", friday);
-      document.getElementById("saturdayb").addEventListener("click", saturday);
-
-      function sunday(){
-        alert("@carolineghoffman");
-      }
-      function buttonTwo(){
-        alert("https://carolinehoffman412.wixsite.com/portfolio")
-      }
-    </script>-->
 
   </body>
   </html>
