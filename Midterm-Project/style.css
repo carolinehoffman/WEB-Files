@@ -1,0 +1,107 @@
+h1 {
+  font-family: "Montserrat";
+  font-weight: bolder;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: normal;
+}
+
+p {
+  font-family: "EB Garamond";
+}
+
+body {
+  background: #E5E5E5;
+}
+
+div {
+  margin: auto;
+  text-align: center;
+}
+
+section {
+  text-align: center;
+}
+
+.todos {
+  flex-grow: 1;
+  width: auto;
+  background: #AEDBB3;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.weather {
+  flex-grow: 1;
+  flex-grow: 1;
+  background: #FFD8CF;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.quotes {
+  flex-grow: 1;
+  flex-grow: 1;
+  background: #A8E3DC;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px;
+}
+
+#sundaydivs {
+  display: flex;
+  text-align: center;
+}
+
+#mondaydivs {
+  display: flex;
+  text-align: center;
+}
+
+#tuesdaydivs {
+  display: flex;
+  text-align: center;
+}
+
+#wednesdaydivs {
+  display: flex;
+  text-align: center;
+}
+
+#thursdaydivs {
+  display: flex;
+  text-align: center;
+}
+
+#fridaydivs {
+  display: flex;
+  text-align: center;
+}
+
+#saturdaydivs {
+  display: flex;
+  text-align: center;
+}
+
+#dayssection {
+  text-align: center;
+}
+
+button {
+  background: white;
+  font-family: "Montserrat";
+  font-size: 20px;
+  border-radius: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
