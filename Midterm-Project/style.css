@@ -106,6 +106,10 @@ button {
   margin-bottom: 15px;
 }
 
+button:hover {
+  background-color: #B0D0FF;
+}
+
 .notDefault {
   display: none;
 }
