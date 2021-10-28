@@ -18,7 +18,7 @@ function sunday(){
     // document.getElementById("saturday").style.display="none";
     let newDays = days.filter(function(i) {
         return i != "sunday"
-    });  //https://davidwalsh.name/remove-item-array-javascript
+    });  // https://davidwalsh.name/remove-item-array-javascript
     for(i = 0; i< newDays.length; i++){
         document.getElementById(newDays[i]).style.display="none";
     }
