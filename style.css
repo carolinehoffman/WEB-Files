@@ -1,15 +1,7 @@
   body {
     background-color: #FFB84D;
   }
-  #first {
-    background-color:#FFFFFF;
-    border: solid black 2px;
-    padding-left: 2vw;
-    padding-top: 1vw;
-    padding-bottom: 2vw;
-    padding-right: 2vw;
-  }
-  #second {
+  #divs {
     background-color: #FFFFFF;
     border: solid black 2px;
     padding-left: 2vw;
@@ -39,22 +31,6 @@
     font-family: "Happy Monkey";
     font-weight:500;
   }
-  /* #both {
-    margin-top:3%;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-  } */
-  /* #float1 h2, p {
-    float: left;
-    width: 300px
-  }
-  #float1 img {
-    float: right;
-    width: 25vw;
-  } */
   a:link {
     color: #00B4BF;
   }
