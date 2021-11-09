@@ -51,7 +51,9 @@ p {
   font-weight:500;
   font-size: 1.5vw;
 }
-
+img {
+  width: 15vw;
+}
 button {
   background: white;
   font-family: "Kirang Haerang";
@@ -68,11 +70,29 @@ a:hover {
   color: #00838B;
 }
 
-button:hover {
-  color: #FFB84D;
+a:clicked {
+  color: #00838B;
 }
 
 #bottom {
   text-align: center;
   padding-top: 1vw;
+}
+
+@media (min-width: 1000px) {
+  h1 {
+    font-size: 4vw;
+  }
+  h2 {
+    font-size: 3.5vw;
+  }
+  p {
+    font-size: 2.5vw;
+  }
+  img {
+    width: 25vw;
+  }
+  button {
+    font-size: 3vw;
+  }
 }
