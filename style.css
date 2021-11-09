@@ -3,7 +3,6 @@ body {
 }
 #divs {
   background-color: #434343;
-  border: solid black 2px;
   text-align: center;
   padding-left: 2vw;
   padding-top: 1vw;
@@ -12,6 +11,7 @@ body {
   margin-top: 1vw;
   margin-bottom: 1vw;
   display: flex;
+  border-radius: 25px;
 }
 #bottom {
   text-align: center;
@@ -31,7 +31,7 @@ body {
   margin: 10px;
 }
 h1 {
-  color:#C2C2C2;
+  color:#00B4BF;
   font-family: "Kirang Haerang";
   font-weight:100;
   font-size: 3vw;
@@ -40,7 +40,7 @@ h1 {
   text-align: center;
 }
 h2 {
-  color:#C2C2C2;
+  color:#FFB84D;
   font-family: "Kirang Haerang";
   font-weight:100;
   font-size: 2.5vw;
@@ -64,9 +64,12 @@ button {
 a:link {
   color: #00B4BF;
 }
+a:hover {
+  color: #00838B;
+}
 
 button:hover {
-  color: #00838B;
+  color: #FFB84D;
 }
 
 #bottom {
