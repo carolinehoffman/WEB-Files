@@ -8,9 +8,9 @@
   </head>
 
   <body>
-    <h1 id="pagetop">Caroline Hoffman<h1>
 
       <section id="buttonsSection">
+        <h1 id="pagetop">Caroline Hoffman</h1>
           <button id="aboutbutton">about</button>
           <button id="workbutton">work</button>
           <button id="resumebutton">resume</button>
@@ -21,7 +21,7 @@
       <h2>About Me</h2>
       <section id="aboutdivs">
         <div>
-          <img src="assets/myface.jpg" width=300px alt="a photo of Caroline Hoffman"/>
+          <img src="assets/myface.jpg" alt="a photo of Caroline Hoffman"/>
         </div>
         <div>
           <p>My name is Caroline. I am currently a fourth year undergraduate at University of Colorado at Boulder working towards a Bachelor's degree in Strategic Communication with a focus on Media Design and a minor in Creative Technology & Design (CTD).</p>
@@ -69,25 +69,29 @@
     <section id="contact" class="notDefault">
       <h2>Contact Me</h2>
       <section id="contactForm">
-        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        <form id="formId" class="formClass" method="post" action="contact-form-process.php">
             <label for="Name" class="formLabel">Your name</label>
             <div class="formInput">
-                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                <input type="text" id="Name" name="Name" class="formControl" required>
             </div>
-        <div class="fcf-form-group">
+        </form>
+        <div class="formGroup">
             <label for="Email" class="formLabel">Email</label>
             <div class="formInput">
-                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                <input type="email" id="Email" name="Email" class="formControl" required>
             </div>
-        <div class="fcf-form-group">
+        </div>
+        <div class="formGroup">
             <label for="Message" class="formLabel">Your message</label>
             <div class="formInput">
-                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                <textarea id="Message" name="Message" class="formControl" rows="6" maxlength="3000" required></textarea>
             </div>
         </div>
-        <div class="fcf-form-group">
+        <div class="formGroup">
             <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
         </div>
+        <p> </p>
+      </section>
     </section>
 
     <script type="text/javascript" src="index.js"></script>
