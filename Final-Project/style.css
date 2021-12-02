@@ -102,4 +102,5 @@ input {
 textarea {
   border-radius: 20px;
   margin-bottom: 10px;
+  text-align: left;
 }

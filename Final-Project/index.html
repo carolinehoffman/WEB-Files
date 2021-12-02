@@ -68,29 +68,17 @@
 
     <section id="contact" class="notDefault">
       <h2>Contact Me</h2>
-      <section id="contactForm">
-        <form id="formId" class="formClass" method="post" action="contact-form-process.php">
-            <label for="Name" class="formLabel">Your name</label>
-            <div class="formInput">
-                <input type="text" id="Name" name="Name" class="formControl" required>
-            </div>
-        </form>
-        <div class="formGroup">
-            <label for="Email" class="formLabel">Email</label>
-            <div class="formInput">
-                <input type="email" id="Email" name="Email" class="formControl" required>
-            </div>
-        </div>
-        <div class="formGroup">
-            <label for="Message" class="formLabel">Your message</label>
-            <div class="formInput">
-                <textarea id="Message" name="Message" class="formControl" rows="6" maxlength="3000" required></textarea>
-            </div>
-        </div>
-        <div class="formGroup">
-            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
-        </div>
-      </section>
+      <form>
+		      <label for="name">name</label><br>
+          <input type="text" id="name" name="name"><br>
+          <label for="email">email</label><br>
+          <input type="text" id="email" name="email"><br><br>
+          <label for="message">message</label><br>
+          <textarea id="message" name="message" rows="6" maxlength="3000"></textarea>
+          <div>
+          <input type="submit" id="submitButton" value="send">
+          </div>
+    </form>
     </section>
 
     <script type="text/javascript" src="index.js"></script>
