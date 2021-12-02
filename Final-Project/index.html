@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <title>Final Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin">
+  </head>
+
+  <body>
+    <h1 id="pagetop">Caroline Hoffman<h1>
+
+      <section id="buttonsSection">
+          <button id="aboutbutton">about</button>
+          <button id="workbutton">work</button>
+          <button id="resumebutton">resume</button>
+          <button id="contactbutton">contact</button>
+      </section>
+
+    <section id="about" class="default">
+      <h2>About Me</h2>
+      <section id="aboutdivs">
+        <div>
+          <img src="assets/myface.jpg" width=300px alt="a photo of Caroline Hoffman"/>
+        </div>
+        <div>
+          <p>My name is Caroline. I am currently a fourth year undergraduate at University of Colorado at Boulder working towards a Bachelor's degree in Strategic Communication with a focus on Media Design and a minor in Creative Technology & Design (CTD).</p>
+          <p>I am an experienced Salesperson with a demonstrated history of working in the retail industry. Skilled in Adobe Photoshop, Strategic Planning, Social Media, Photography, and Image Editing.</p>
+          <p>I'm also a <a href=http://www.cuhikingclub.com>Hiking Club</a> Officer at CU, where I lead other students on hikes in and around Colorado to assist in getting others outdoors.</p>
+          <p>Please enjoy and feel free to contact me with any questions, ideas, or concerns.</p>
+        </div>
+      </section>
+    </section>
+
+    <section id="work" class="notDefault">
+      <h2>My Work</h2>
+      <section id="workdivs">
+        <div>
+          <img src="assets/paint.jpg" alt="a photo using paint bombs"/>
+        </div>
+        <div>
+          <img src="assets/drawing.jpg" alt="a drawing of a girl"/>
+        </div>
+        <div>
+          <img src="assets/flower.jpg" alt="a photo of a flower"/>
+        </div>
+        <div>
+          <img src="assets/field.jpg" alt="an edited image of Farrand Field"/>
+        </div>
+        <div>
+            <img src="assets/bird.jpg" alt="a photo of a hummingbird"/>
+        </div>
+        <div>
+          <img src="assets/pattern.jpg" alt="a graphic design using my own drawings"/>
+        </div>
+        <div>
+          <img src="assets/ocean.jpg" alt="a photo of the ocean"/>
+        </div>
+      </section>
+    </section>
+
+    <section id="resume" class="notDefault">
+      <h2>My Resume</h2>
+        <div class="resume">
+          <img src="assets/resume.pdf" alt="my resume"/>
+        </div>
+    </section>
+
+    <section id="contact" class="notDefault">
+      <h2>Contact Me</h2>
+      <section id="contactForm">
+        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+            <label for="Name" class="formLabel">Your name</label>
+            <div class="formInput">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        <div class="fcf-form-group">
+            <label for="Email" class="formLabel">Email</label>
+            <div class="formInput">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        <div class="fcf-form-group">
+            <label for="Message" class="formLabel">Your message</label>
+            <div class="formInput">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="index.js"></script>
+
+  </body>
+  </html>

@@ -1,0 +1,75 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  font-family: "Raleway";
+  font-weight: bolder;
+  text-align: center;
+  font-size: 50px;
+  color: #5643CE;
+  margin-bottom: 0px;
+}
+
+button {
+  background-color: white;
+  font-family: "Raleway";
+  font-size: 20px;
+  border-radius: 50px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #FFD84D;
+}
+
+h2 {
+  font-family: "Raleway";
+  font-weight: bold;
+  text-align: center;
+  font-size: 35px;
+  color: #7EDBF9;
+}
+
+img {
+  width: 350px;
+}
+
+p {
+  font-family: "Cabin";
+  font-weight: normal;
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  margin-left: 20px;
+}
+
+a {
+  color: #24D84B;
+}
+
+a:hover {
+  color: #FFD84D;
+}
+
+#aboutdivs {
+  flex-grow: 1;
+  display: flex;
+  text-align: center;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+#workdivs {
+  padding: 20px;
+  margin: 10px;
+}
+
+label {
+  font-family: "Cabin";
+  font-weight: normal;
+  text-align: left;
+  font-size: 20px;
+  color: white;
+}
