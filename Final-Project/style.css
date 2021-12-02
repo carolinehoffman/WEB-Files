@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: #212738;
 }
 
 #buttonsSection {
@@ -26,12 +26,12 @@ h1 {
   font-family: "Raleway";
   font-weight: bolder;
   font-size: 50px;
-  color: #5643CE;
+  color: #D1D646;
   margin-bottom: 10px;
 }
 
 button {
-  background-color: white;
+  background-color: #EDF2EF;
   font-family: "Raleway";
   font-size: 20px;
   border-radius: 50px;
@@ -40,7 +40,7 @@ button {
 }
 
 button:hover {
-  background-color: #FFD84D;
+  background-color: #F97068;
 }
 
 h2 {
@@ -48,7 +48,7 @@ h2 {
   font-weight: bold;
   text-align: center;
   font-size: 35px;
-  color: #7EDBF9;
+  color: #57C4E5;
 }
 
 img {
@@ -61,16 +61,16 @@ p {
   font-weight: normal;
   text-align: left;
   font-size: 20px;
-  color: white;
+  color: #EDF2EF;
   margin-left: 20px;
 }
 
 a {
-  color: #24D84B;
+  color: #F97068;
 }
 
 a:hover {
-  color: #FFD84D;
+  color: #57C4E5;
 }
 
 #aboutdivs {
