@@ -12,14 +12,12 @@ if (isset($_POST['Email'])) {
         echo "Please go back and fix these errors.<br><br>";
         die();
     }
-
-    // validation expected data exists
-    if (
+if (
         !isset($_POST['Name']) ||
         !isset($_POST['Email']) ||
         !isset($_POST['Message'])
     ) {
-        problem('We're sorry, but there appears to be a problem with the form you submitted.');
+        problem('There appears to be a problem with the form you submitted.');
     }
 
     $name = $_POST['Name']; // required
