@@ -1,4 +1,4 @@
-items = ["about", "work", "resume", "contact"]
+/*items = ["about", "work", "resume", "contact"]
 document.getElementById("aboutbutton").addEventListener("click", about);
 document.getElementById("workbutton").addEventListener("click", work);
 document.getElementById("resumebutton").addEventListener("click", resume);
@@ -43,7 +43,7 @@ function contact(){
     for(i = 0; i< newItems.length; i++){
         document.getElementById(newItems[i]).style.display="none";
     }
-}
+}*/
 
 document.getElementById("submitButton").addEventListener("click", submit);
 function submit(){

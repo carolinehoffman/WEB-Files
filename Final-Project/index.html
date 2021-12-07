@@ -1,7 +1,7 @@
 <!DOCTYPE html>
   <html lang="en">
   <head>
-    <title>Final Project</title>
+    <title>Final Project - About</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin">
@@ -11,10 +11,12 @@
 
       <section id="buttonsSection">
         <h1 id="pagetop">Caroline Hoffman</h1>
-          <button id="aboutbutton">about</button>
-          <button id="workbutton">work</button>
-          <button id="resumebutton">resume</button>
-          <button id="contactbutton">contact</button>
+        <nav>
+          <button id="aboutbutton" formaction="index.html" class="active">about</button>
+          <button id="workbutton" formaction="work.html">work</button>
+          <button id="resumebutton" formaction="resume.html">resume</button>
+          <button id="contactbutton" formaction="contact.html">contact</button>
+        </nav>
       </section>
 
     <section id="about" class="default">
@@ -32,7 +34,7 @@
       </section>
     </section>
 
-    <section id="work" class="notDefault">
+  <!--  <section id="work" class="notDefault">
       <h2>My Work</h2>
       <section id="workdivs">
         <div>
@@ -69,7 +71,7 @@
     <section id="resume" class="notDefault">
       <h2>My Resume</h2>
         <div class="resume">
-          <img src="assets/resume.pdf" alt="my resume"/>
+          <iframe src="assets/resume.pdf" height="1100" width="850"></iframe>
         </div>
     </section>
 
@@ -86,7 +88,7 @@
           <input type="submit" id="submitButton" value="send">
           </div>
     </form>
-    </section>
+  </section> -->
 
     <script type="text/javascript" src="index.js"></script>
 

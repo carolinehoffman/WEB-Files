@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <title>Final Project - Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin">
+  </head>
+
+  <body>
+
+      <section id="buttonsSection">
+        <h1 id="pagetop">Caroline Hoffman</h1>
+        <nav>
+          <button id="aboutbutton" formaction="index.html">about</button>
+          <button id="workbutton" formaction="work.html">work</button>
+          <button id="resumebutton" formaction="resume.html">resume</button>
+          <button id="contactbutton" formaction="contact.html" class="active">contact</button>
+        </nav>
+      </section>
+
+      <section id="contact" class="notDefault">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">name</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">email</label><br>
+            <input type="text" id="email" name="email"><br><br>
+            <label for="message">message</label><br>
+            <textarea id="message" name="message" rows="6" maxlength="3000"></textarea>
+            <div>
+            <input type="submit" id="submitButton" value="send">
+            </div>
+      </form>
+      </section>
+
+      <script type="text/javascript" src="index.js"></script>
+
+      </body>
+      </html>
