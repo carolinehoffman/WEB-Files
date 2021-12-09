@@ -16,8 +16,11 @@ h1 {
   display: flex;
 }
 
-#buttonsSection {
+nav {
+  display: flex;
   text-align: center;
+  margin: auto;
+  margin-left: 36.5%;
 }
 
 button {
